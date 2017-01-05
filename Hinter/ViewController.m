@@ -164,7 +164,7 @@ static int tempAdd;
 
 #pragma mark - 定时器
 - (void)startTimer{
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.1 target:self selector:@selector(timerAction:) userInfo:nil repeats:YES];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(timerAction:) userInfo:nil repeats:YES];
 }
 
 - (void)stopTimer{
